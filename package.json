@@ -1,7 +1,7 @@
 {
   "name": "react-label",
   "version": "1.0.0",
-  "description": "",
+  "description": "A themeable tag-like text label built in React",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -25,5 +25,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mturnwall/react-label-component.git"
+  },
+  "author": "Michael Turnwall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mturnwall/react-label-component/issues"
+  },
+  "homepage": "https://github.com/mturnwall/react-label-component#readme"
 }
