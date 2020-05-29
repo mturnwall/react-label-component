@@ -10,7 +10,7 @@ Label is a contextual text label built in React. It should primarily be used to 
 | ---------- | -------------------------------------------------------------------- | ------------------------------------------------------ | --------- |
 | as         | Determines the HTML element used to render the Lozenge               | `string`                                               | 'span'    |
 | children\* | The inner part of the Lozenge, generally just a string               | `node`                                                 | -         |
-| color      | The primary color scheme of the Lozenge                              | `'primary' | 'info' | 'success' | 'warning' | 'error'` | 'primary' |
+| color      | The primary color scheme of the Lozenge                              | `'primary | info | success | warning | error` | 'primary' |
 | theme      | Use this to pass in a theme. It will override any global theme       | `object`                                               | -         |
 | type       | Determines if the Lozenge has transparency (subtle) or filled (bold) | `'bold' | 'subtle'`                                    | 'subtle'  |
 
