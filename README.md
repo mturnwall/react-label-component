@@ -58,11 +58,11 @@ const label = {
     base: {},
     preview: {
         subtle: {
-            background: ''
+            background: '',
             border: '',
             color: '',
         },
-        bold: {}.
+        bold: {},
     },
     info: {
         subtle: {},
@@ -93,11 +93,11 @@ const label = {
     base: {},
     preview: {
         subtle: {
-            background: ''
+            background: '',
             border: '',
             color: '',
         },
-        bold: {}.
+        bold: {},
     },
     info: {
         subtle: {},
