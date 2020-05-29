@@ -38,8 +38,8 @@ Each `color` object should be
     [type]: {
         [style]: ''
     }
-}`
-````
+}
+```
 
 The allowed styles you can customize per `color -> type` are:
 
