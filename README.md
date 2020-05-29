@@ -2,6 +2,8 @@
 
 Label is a contextual text label built in React. It should primarily be used to display just one or two words.
 
+[Demo](https://codesandbox.io/s/react-label-d1y90?file=/src/Label.jsx)
+
 ![Label Example](label_example.png)
 
 ## Props
