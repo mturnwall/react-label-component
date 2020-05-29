@@ -37,8 +37,8 @@ Each `color` object should be
 [color]: {
     [type]: {
         [style]: ''
-    }
-}
+    },
+},
 ```
 
 The allowed styles you can customize per `color -> type` are:
