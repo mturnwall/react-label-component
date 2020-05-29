@@ -18,7 +18,7 @@ Label is a contextual text label built in React. It should primarily be used to 
 
 ## Examples
 
-```react
+```jsx
 <Label>Primary</Label>
 <Label color="info">Info</Label>
 <Label color="success">Success</Label>
