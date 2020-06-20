@@ -1,4 +1,4 @@
-import { hex, rgb } from "color-convert";
+import { hex, rgb } from 'color-convert';
 
 /**
  * Determine if a string is a hex color
@@ -26,7 +26,7 @@ const rgba = (color, alpha = 1) => {
  * @param {number} [options.lightness=0] - percentage to lighten a color, negative numbers will darken the color
  */
 const colorAdjust = (color, { alpha = 1, lightness = 0 } = {}) => {
-    if (typeof color === "undefined") {
+    if (typeof color === 'undefined') {
         return false;
     }
     const [h, s, l] = isHexColor(color) ? hex.hsl(color) : rgb.hsl(color);
@@ -36,4 +36,4 @@ const colorAdjust = (color, { alpha = 1, lightness = 0 } = {}) => {
     return `hsl(${h}, ${s}%, ${l + lightness}%)`;
 };
 
-export { colorAdjust };
+export { colorAdjust, isHexColor };
