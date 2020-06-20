@@ -1,9 +1,15 @@
 language: node_js
+
 node_js:
   - 14
+
 branches:
   only:
     - master
+
+before_deploy:
+  - npm run build
+
 deploy:
   provider: netlify
   dir: "build/"
