@@ -1,39 +1,39 @@
 {
-  "name": "react-label",
-  "version": "1.0.0",
-  "description": "A themeable tag-like text label built in React",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "color-convert": "2.0.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-scripts": "3.0.1",
-    "styled-components": "5.1.0"
-  },
-  "devDependencies": {
-    "typescript": "3.8.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mturnwall/react-label-component.git"
-  },
-  "author": "Michael Turnwall",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mturnwall/react-label-component/issues"
-  },
-  "homepage": "https://github.com/mturnwall/react-label-component#readme"
+    "name": "react-label",
+    "version": "1.0.0",
+    "description": "A themeable tag-like text label built in React",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+        "color-convert": "2.0.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.1",
+        "styled-components": "5.1.0"
+    },
+    "devDependencies": {
+        "typescript": "3.8.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mturnwall/react-label-component.git"
+    },
+    "author": "Michael Turnwall",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mturnwall/react-label-component/issues"
+    },
+    "homepage": "https://github.com/mturnwall/react-label-component#readme"
 }
