@@ -6,7 +6,5 @@ branches:
     - master
 deploy:
   provider: netlify
-  site: NETLIFY_SITE
-  auth: NETLIFY_AUTH
   dir: "build/"
   edge: true # opt in to dpl v2
