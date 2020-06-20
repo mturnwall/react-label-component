@@ -1,20 +1,20 @@
-# React Label
+# React Label [![Build Status](https://travis-ci.org/mturnwall/react-label-component.svg?branch=master)](https://travis-ci.org/mturnwall/react-label-component)
 
 Label is a contextual text label built in React. It should primarily be used to display just one or two words.
 
-[Demo](https://codesandbox.io/s/react-label-d1y90?file=/src/Label.jsx)
+[Demo](https://react-label.netlify.app/)
 
 ![Label Example](label_example.png)
 
 ## Props
 
-| Name       | Description                                                          | Type                                                   | Default   |
-| ---------- | -------------------------------------------------------------------- | ------------------------------------------------------ | --------- |
-| as         | Determines the HTML element used to render the Lozenge               | `string`                                               | 'span'    |
-| children\* | The inner part of the Lozenge, generally just a string               | `node`                                                 | -         |
+| Name       | Description                                                          | Type                                                       | Default   |
+| ---------- | -------------------------------------------------------------------- | ---------------------------------------------------------- | --------- |
+| as         | Determines the HTML element used to render the Lozenge               | `string`                                                   | 'span'    |
+| children\* | The inner part of the Lozenge, generally just a string               | `node`                                                     | -         |
 | color      | The primary color scheme of the Lozenge                              | `'primary' \| 'info' \| 'success' \| 'warning' \| 'error'` | 'primary' |
-| theme      | Use this to pass in a theme. It will override any global theme       | `object`                                               | -         |
-| type       | Determines if the Lozenge has transparency (subtle) or filled (bold) | `'bold' \| 'subtle'`                                    | 'subtle'  |
+| theme      | Use this to pass in a theme. It will override any global theme       | `object`                                                   | -         |
+| type       | Determines if the Lozenge has transparency (subtle) or filled (bold) | `'bold' \| 'subtle'`                                       | 'subtle'  |
 
 <span style="font-size: 10px;">\*required prop</span>
 
